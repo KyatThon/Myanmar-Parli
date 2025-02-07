@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	text-decoration: none;
 }
 body {
 	font-family: sans-serif;
@@ -103,4 +104,27 @@ body {
 	background: var(--color);
 	color: #010101;
 	box-shadow: 0 0 5px var(--color), 0 0 25px var(--color), 0 0 50px var(--color), 0 0 75px var(--color);
+}
+
+.design-idea {
+	position: fixed;
+	bottom: 2%;
+	right: 2%;
+	width: 200px;
+	height: 30px;
+	background-color: #000;
+	font-size: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 25px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 50);
+}
+
+.design-idea a {
+	color: #fff;
+	transition: color 0.3s ease;
+}
+.design-idea a:hover {
+	color: #ffde21;
 }
