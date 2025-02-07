@@ -52,7 +52,7 @@ body {
 	cursor: pointer;
 }
 
-.profile-name img:hover {
+.profile-picture img:hover {
 	transform: scale(1.08);
 }
 
