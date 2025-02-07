@@ -12,7 +12,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: #a5b1c2;
+	background-color: #808080;
 	font-family: 'poppins';
 	position: relative;
 	color: #fff;
@@ -24,9 +24,12 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-color:  #1e272e;
+	background-image: url('bg-image.jpg');
+	background-size: cover;
+	background-position: center;
 	border-radius: 10px;
 	box-shadow: 15px 35px 20px rgba(0, 0, 0, 0.5), -10px -20px 20px rgba(0, 0, 0, 0.05);
+	border: 2px solid #39FF14;
 }
 
 .profile-content {
@@ -58,7 +61,7 @@ body {
 
 .profile-name {
 	margin-top: 10px;
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: bold;
 	color: #1DA1F2;
 	text-transform: capitalize;
@@ -101,27 +104,3 @@ body {
 	color: #010101;
 	box-shadow: 0 0 5px var(--color), 0 0 25px var(--color), 0 0 50px var(--color), 0 0 75px var(--color);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
